@@ -11,7 +11,7 @@ TABLE_DIRECTORY = os.path.join(TMP_DIRECTORY, 'tables/')
 METADATA_PATTERNS = os.path.join(CURRENT_DIRECTORY, 'files/meta_data_pattern.json')
 
 
-TABLE_MODEL_GPU = os.path.join(CURRENT_DIRECTORY, 'detection_models/models/table_model/gpu_table_detection_model.pth')
+TABLE_MODEL_GPU = os.path.join(CURRENT_DIRECTORY, 'detection_models/models/table_model/cpu_table_detection_model.pth')
 TABLE_MODEL_CPU = os.path.join(CURRENT_DIRECTORY, 'detection_models/models/table_model/cpu_table_detection_model.pth')
 TABLE_MODEL_CONFIG = os.path.join(CURRENT_DIRECTORY,
                                   'detection_models/models/table_model/cascade_mask_rcnn_hrnetv2p_w32_20e_v2.py')
